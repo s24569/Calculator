@@ -7,11 +7,15 @@ public class Calculator {
     public static void main(String[] args) {
      Scanner input = new Scanner(System.in);
      //Define Variables
-     int firstNumber = 6;
-     int secondNumber = 2;
+     int firstNumber;
+     int secondNumber;
      int answer;
      //Definie operators
      int operator;
+     System.out.println("Input the first number");
+     firstNumber = input.nextInt();
+      System.out.println("Input the second number");
+      secondNumber = input.nextInt();
     System.out.println("Pick an operation");
     System.out.println("1. Addition");
     System.out.println("2. Subtraction");
