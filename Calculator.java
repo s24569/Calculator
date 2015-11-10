@@ -7,6 +7,8 @@ public class Calculator {
     public static void main(String[] args) {
      Scanner input = new Scanner(System.in);
      //Define Variables
+     
+     //I changed the number variables so that the user can have greater flexibility with the calculator
      int firstNumber;
      int secondNumber;
      int answer;
