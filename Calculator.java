@@ -14,6 +14,8 @@ public class Calculator {
      int answer;
      //Definie operators
      int operator;
+     
+     //I also added additional print statements to accept the numbers into the empty variables
      System.out.println("Input the first number");
      firstNumber = input.nextInt();
       System.out.println("Input the second number");
